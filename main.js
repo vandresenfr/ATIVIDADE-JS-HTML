@@ -15,7 +15,7 @@ form.addEventListener('submit', function(e) {
     var numberB = parseInt(inputNumberB);
     const mensagemIguais = (`Os números são iguais`);
     const mensagem1 = (`O número: <b>${numberA}</b> é maior que o número: <b>${numberB}</b>`);
-    const mensagem2 = (`O número: <b> ${numberA}</b> é menor que o número: <b>${numberB}</b>`);
+    const mensagem2 = (`O número: <b>${numberA}</b> é menor que o número: <b>${numberB}</b>`);
     const mensagemValida = (`Por favor, digite números inteiros válidos`);
 
     if (!isNaN(numberA) && !isNaN(numberB)) {
